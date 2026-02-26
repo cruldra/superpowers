@@ -58,6 +58,7 @@ Task tool (general-purpose):
     - Did I avoid overbuilding (YAGNI)?
     - Did I only build what was requested?
     - Did I follow existing patterns in the codebase?
+    - **Did I avoid committing?** (Never commit — that's the user's decision)
 
     **Testing:**
     - Do tests actually verify behavior (not just mock behavior)?
@@ -74,4 +75,5 @@ Task tool (general-purpose):
     - Files changed
     - Self-review findings (if any)
     - Any issues or concerns
+    - **Do NOT commit.** Leave all changes uncommitted for the user to review and commit.
 ```
